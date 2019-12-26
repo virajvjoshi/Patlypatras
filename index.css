@@ -1,1 +1,38 @@
+body{
+bgcolor="#ffd218"
+overflow-x: hidden; /*hide horizontal scroll */
+}
 
+img.main{
+  position: fixed;
+  max-width:1000px;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+
+p{
+  font-family: 'Raleway', sans-serif
+}
+
+.col{
+padding-right: 0;
+padding-left: 0;
+}
+
+h1{
+  font-size: 40px;
+  font-color: #24394c;
+  font-family: 'Raleway', sans-serif;
+}
+svg {
+  width: 30px;
+  height: 30px;
+}
+svg:hover {
+  fill: #24394c;
+}
+
+div.col-xl-7{
+  background-color: #253A4D;
+}
